@@ -60,9 +60,9 @@
     "blocks": {
       "1632665333ea42fd79": {
         "type": "shopify:\/\/apps\/fast-simon-instantsearch\/blocks\/autocomplete\/95672d06-1c4e-4e1b-9368-e84ce1ad6886",
-        "disabled": false,
+        "disabled": true,
         "settings": {
-          "path": "\/search"
+          "path": "\/pages\/search-results"
         }
       }
     }
