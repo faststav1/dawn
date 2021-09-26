@@ -53,6 +53,18 @@
           "type": "share",
           "settings": {
           }
+        },
+        "837b0054-1b3e-4370-8e3b-a9b35a1c426d": {
+          "type": "shopify:\/\/apps\/fast-simon-instantsearch\/blocks\/upsell_crosell_pp\/95672d06-1c4e-4e1b-9368-e84ce1ad6886",
+          "settings": {
+            "index": 1,
+            "title": "People Who Viewed This Also Viewed",
+            "layout": "horizontal",
+            "source": "related_views",
+            "img_size": 250,
+            "collections": "id1, id2, id3",
+            "max_suggest": 5
+          }
         }
       },
       "block_order": [
@@ -64,7 +76,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "837b0054-1b3e-4370-8e3b-a9b35a1c426d"
       ],
       "settings": {
         "enable_sticky_info": true,
