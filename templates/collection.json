@@ -9,7 +9,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "image_ratio": "adapt",
@@ -22,17 +21,6 @@
     },
     "1632665405ffb0bf61": {
       "type": "apps",
-      "blocks": {
-        "adbc5009-fe05-421c-9a8c-faffb94f81d8": {
-          "type": "shopify:\/\/apps\/fast-simon-instantsearch\/blocks\/smart_collections\/95672d06-1c4e-4e1b-9368-e84ce1ad6886",
-          "settings": {
-            "theme": "default"
-          }
-        }
-      },
-      "block_order": [
-        "adbc5009-fe05-421c-9a8c-faffb94f81d8"
-      ],
       "settings": {
         "include_margins": true
       }
