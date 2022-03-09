@@ -1,5 +1,11 @@
 {
   "sections": {
+    "1646860434fdd95eba": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{{ product.metafields[\"global\"][\"Sale-today-only\"] }}"
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -55,7 +61,7 @@
           }
         },
         "837b0054-1b3e-4370-8e3b-a9b35a1c426d": {
-          "type": "shopify:\/\/apps\/fast-simon-instantsearch\/blocks\/upsell_crosell_pp\/95672d06-1c4e-4e1b-9368-e84ce1ad6886",
+          "type": "shopify:\/\/apps\/product-filters-fast-search\/blocks\/upsell_crosell_pp\/95672d06-1c4e-4e1b-9368-e84ce1ad6886",
           "settings": {
             "index": 1,
             "title": "People Who Viewed This Also Viewed",
@@ -105,7 +111,7 @@
       "type": "apps",
       "blocks": {
         "348b3355-2fb4-4e6f-898d-15c440a1cabb": {
-          "type": "shopify:\/\/apps\/fast-simon-instantsearch\/blocks\/upsell_crosell_pp\/95672d06-1c4e-4e1b-9368-e84ce1ad6886",
+          "type": "shopify:\/\/apps\/product-filters-fast-search\/blocks\/upsell_crosell_pp\/95672d06-1c4e-4e1b-9368-e84ce1ad6886",
           "settings": {
             "index": 1,
             "title": "People Who Viewed This Also Viewed",
@@ -126,6 +132,7 @@
     }
   },
   "order": [
+    "1646860434fdd95eba",
     "main",
     "product-recommendations",
     "16326673039bce549b",
